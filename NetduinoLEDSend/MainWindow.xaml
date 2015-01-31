@@ -1,0 +1,30 @@
+﻿<Window x:Class="NetduinoLEDSend.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox 
+            x:Name="text1"
+            HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="172.16.0.16" VerticalAlignment="Top" Width="139"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="23,62,0,0" TextWrapping="Wrap" Text="pin0" VerticalAlignment="Top" Width="34"/>
+        <Button Click="clickPin0on" Content="ON" HorizontalAlignment="Left" Margin="71,63,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Click="clickPin0off" Content="OFF" HorizontalAlignment="Left" Margin="151,63,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBlock HorizontalAlignment="Left" Margin="23,98,0,0" TextWrapping="Wrap" Text="pin1" VerticalAlignment="Top" Width="34"/>
+        <Button Click="clickPin1on" Content="ON" HorizontalAlignment="Left" Margin="71,99,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Click="clickPin1off" Content="OFF" HorizontalAlignment="Left" Margin="151,99,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBlock HorizontalAlignment="Left" Margin="23,134,0,0" TextWrapping="Wrap" Text="pin2" VerticalAlignment="Top" Width="34"/>
+        <Button Click="clickPin2on" Content="ON" HorizontalAlignment="Left" Margin="71,135,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Click="clickPin2off" Content="OFF" HorizontalAlignment="Left" Margin="151,135,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBlock HorizontalAlignment="Left" Margin="23,171,0,0" TextWrapping="Wrap" Text="pin3" VerticalAlignment="Top" Width="34"/>
+        <Button Click="clickPin3on" Content="ON" HorizontalAlignment="Left" Margin="71,172,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Click="clickPin3off" Content="OFF" HorizontalAlignment="Left" Margin="151,172,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBlock HorizontalAlignment="Left" Margin="23,207,0,0" TextWrapping="Wrap" Text="pin4" VerticalAlignment="Top" Width="34"/>
+        <Button Click="clickPin4on" Content="ON" HorizontalAlignment="Left" Margin="71,208,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Click="clickPin4off" Content="OFF" HorizontalAlignment="Left" Margin="151,208,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBlock
+            x:Name="text2"
+            HorizontalAlignment="Left" Margin="154,18,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="353"/>
+
+    </Grid>
+</Window>
